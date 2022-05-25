@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluetoothlist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:7:5-74
+12-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:7:22-71
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+15-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:10:5-73
+15-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:10:22-70
+16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+16-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:11:5-76
+16-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:11:22-73
+17
+18    <application
+18-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:13:5-32:19
+19        android:allowBackup="true"
+19-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\Artemii\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:15:9-65
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:16:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:17:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:18:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:19:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:20:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.BluetoothList" >
+30-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:21:9-51
+31        <activity
+31-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:23:9-31:20
+32            android:name="com.example.bluetoothlist.MainActivity"
+32-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:24:13-41
+33            android:exported="true" >
+33-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:25:13-36
+34            <intent-filter>
+34-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:26:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:27:17-69
+35-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:27:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:29:17-77
+37-->C:\Users\Artemii\AndroidStudioProjects\BluetoothList\app\src\main\AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.example.bluetoothlist.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Artemii\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Artemii\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Artemii\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Artemii\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
