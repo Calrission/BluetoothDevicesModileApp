@@ -81,7 +81,14 @@ class MainActivity : AppCompatActivity() {
         grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode in listOf(ID_BLUETOOTH, ID_ENABLE_BLUETOOTH)){
+        if (requestCode == ID_BLUETOOTH){
+            bluetoothScanner.initRefreshData()
+        }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == ID_ENABLE_BLUETOOTH){
             bluetoothScanner.initRefreshData()
         }
     }
